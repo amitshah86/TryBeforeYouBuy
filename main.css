@@ -1,0 +1,19 @@
+body {
+  list-style: none;
+}
+
+
+
+
+.picDiv {
+background-image: url("Background.jpg");
+background-repeat: no-repeat;
+overflow: hidden;
+padding-bottom: 75%;
+max-height: 500px;
+}
+
+.backgroundpic{
+
+
+}
