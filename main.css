@@ -2,18 +2,34 @@ body {
   list-style: none;
 }
 
-
-
-
-.picDiv {
-background-image: url("Background.jpg");
-background-repeat: no-repeat;
-overflow: hidden;
-padding-bottom: 75%;
-max-height: 500px;
+.header {
+color: rgb(192,192,192);
+font-size: 12px;
+word-spacing: 10px;
 }
 
-.backgroundpic{
+.pic {
+background-image: url("Background.jpg");
+background-repeat: no-repeat;
+background-size: 1450px; 
+width: 1278px;
+height: 300px;
+}
 
+.Personal {
+  width: 130px;
+  height: 120px;
+  background-color: green;
+}
 
+.Small {
+  width: 130px;
+  height: 120px;
+  background-color: blue;
+}
+
+.Enterprise {
+  width: 130px;
+  height: 120px;
+  background-color: black;
 }
