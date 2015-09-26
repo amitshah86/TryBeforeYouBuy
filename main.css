@@ -11,25 +11,78 @@ word-spacing: 10px;
 .pic {
 background-image: url("Background.jpg");
 background-repeat: no-repeat;
-background-size: 1450px; 
-width: 1278px;
+background-size: 100%;
+width: 1280px;
 height: 300px;
+text-align: center;
+padding-top: 100px;
+font-size: 24px;
+color: white;
+overflow: hidden;
+
 }
 
-.Personal {
-  width: 130px;
-  height: 120px;
-  background-color: green;
+.title{
+font-size: 28px;
+text-align: center;
+
+
 }
 
-.Small {
-  width: 130px;
-  height: 120px;
-  background-color: blue;
+.pricing-container-outer{
+  max-width: 100%;
 }
 
-.Enterprise {
-  width: 130px;
-  height: 120px;
+.pricing-container-inner{
+  width: 60%;
+  text-align: center;
+}
+
+.container-columns{
+  margin: 40%;
+  display: inline-block;
+  
+
+}
+
+
+.green-square {
+  margin-left: 200px;
+  margin: 100px;
+  width: 180px;
+  height: 180px;
+  background-color: #569247;
+  color: white;
+}
+
+.green-square h1 {
+
+
+}
+
+
+.blue-square {
+  margin-left;
+  margin: 100px;
+  width: 180px;
+  height: 180px;
+  background-color: #2B4885;
+  color: white;
+
+}
+
+.black-square{
   background-color: black;
+  width: 180px;
+  height: 180px;
+  color: white;
+  margin-left: 50%;
+
+
 }
+
+
+
+
+
+
