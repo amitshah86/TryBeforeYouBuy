@@ -39,7 +39,6 @@ text-align: center;
 }
 
 .container-columns{
-  margin: 40%;
   display: inline-block;
   
 
@@ -47,12 +46,14 @@ text-align: center;
 
 
 .green-square {
-  margin-left: 200px;
   margin: 100px;
   width: 180px;
   height: 180px;
   background-color: #569247;
   color: white;
+  position: absolute;
+  top: 352px;
+  right:650px;
 }
 
 .green-square h1 {
@@ -62,12 +63,15 @@ text-align: center;
 
 
 .blue-square {
-  margin-left;
+  margin-left: 60%;
   margin: 100px;
   width: 180px;
   height: 180px;
   background-color: #2B4885;
   color: white;
+  position: absolute;
+  top:352px;
+  right: 450px;
 
 }
 
@@ -76,9 +80,69 @@ text-align: center;
   width: 180px;
   height: 180px;
   color: white;
-  margin-left: 50%;
+  margin: 100px;  
+  position: absolute;
+  top: 352px;
+  right: 250px;
+}
 
+.latinparagraphs {
+  position: relative;
+  height: 500px;
+}
 
+.gst {
+  left: 200px;
+  position: absolute;
+  top: 30px;
+}
+
+.pmoa {
+  left:680px;
+  position: absolute;
+  top: 30px;
+}
+
+.cs {
+  left:200px;
+  position: absolute;
+  top: 235px;
+}
+
+.cypa {
+
+  left: 680px;
+  position: absolute;
+  top: 235px;
+}
+
+.latinone {
+  left: 200px;
+  position: absolute;
+  top: 55px;
+  width: 300px;
+
+}
+
+.latintwo {
+  left: 680px;
+  position: absolute;
+  top: 55px;
+  width: 300px;
+}
+
+.latinthree {
+  left: 200px;
+  position: absolute;
+  top: 260px;
+  width: 300px;
+}
+
+.latinfour {
+  left: 680px;
+  position: absolute;
+  top: 260px;
+  width: 300px;
 }
 
 
