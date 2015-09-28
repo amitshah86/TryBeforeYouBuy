@@ -31,6 +31,34 @@ text-align: center;
 
 .pricing-container-outer{
   max-width: 100%;
+  display: inline-block;
+  margin-left: 100px;
+  
+}
+.personal {
+  list-style: none;
+  display: inline-block; 
+  margin: 100px;
+  width: 75%;
+  padding-left: 45px;
+  padding-top: 110px;
+  text-align: center;
+}
+
+.smallbusiness {
+  list-style: none;
+  width: 75%;
+  display: inline-block;
+  padding-bottom: 75%;
+  padding-left: 345px;
+
+}
+
+.enterprise {
+  list-style: none;
+  display: inline-block;
+  width: 75%;
+  padding-left: 550px;
 }
 
 .pricing-container-inner{
